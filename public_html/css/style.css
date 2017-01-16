@@ -1,0 +1,75 @@
+.well-image{
+    width: 100%;
+    height: 162px;
+}
+
+#modalimg{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-buffer{
+    margin-top: 20px;
+}
+
+.description{
+    margin: 10 20 10 20;
+    text-align: justify;
+}
+
+body{
+    background-image: url(../images/PEepxxL.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.well-sm{
+    background-color: rgba(245, 245, 245, 0.6);
+}
+
+.legend{
+    padding-left: 15px;
+}
+
+.answer{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #999999;
+}
+
+.answer:hover{
+    cursor: pointer;
+    background: #99ccff;
+}
+
+.image-answer{
+    cursor: pointer;
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-answer img{
+    width: 100%;
+    height: auto;
+}
+
+.image-selected{
+    border: 5px solid #ffffff;
+}
+
+.image-answer.bg-success{
+    border: 10px solid #0f7864;
+}
+
+.image-answer.bg-danger{
+    border: 10px solid #ff0033;
+}
+.heading{
+    color: white;
+    text-shadow: 2px 2px black;
+}
